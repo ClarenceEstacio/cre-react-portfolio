@@ -29,7 +29,7 @@ const easeInOutCubic = (x) =>
   x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
 
 const ProfileCardComponent = ({
-  avatarUrl = "/src/assets/profile.png",
+  avatarUrl = "/profile.png",
   // iconUrl = "/src/assets/zetsukylogo-black.png",
   iconUrl = "https://logo.svgcdn.com/l/github-icon.svg",
   grainUrl = "https://www.rawpixel.com/image/5895009/noise-texture-png-transparent-background",
