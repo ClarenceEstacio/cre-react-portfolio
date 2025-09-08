@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #2c2b30;
+  --color-slate: #4f4f51;
+  --color-cloud: #d6d6d6;
+  --color-blush: #f2c4ce;
+  --color-coral: #f58f7c;
+
+  /* Additional colors for the timeline component */
+  --color-primary: #f58f7c;
+  --color-primary-rgb: 245, 143, 124;
+  --color-muted: #4f4f51;
+  --color-muted-foreground: #4f4f51;
+  --color-card: #ffffff;
+  --color-card-foreground: #2c2b30;
+  --color-border: #d6d6d6;
+  --color-background: #2c2b30;
+  --color-foreground: #d6d6d6;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  /* Font family defaults */
+  --font-sans: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
